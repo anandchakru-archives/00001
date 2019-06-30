@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine|Barriecito|Righteous|Fredoka+One&display=swap");
+
+body {
+  height: 100%;
+  padding-bottom: 150px;
+  background: #293f50;
+  background: radial-gradient(#648880, #293f50);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    padding-bottom: 220px;
+  }
+
+  .display-1 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+
+  .display-2 {
+    font-size: 2.75rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+
+  .display-3 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+
+  .display-4 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+}
+
+#vitals {
+  max-height: 200px;
+}
+
+#shortMsg {
+  text-shadow: 3px 3px 10px #1f8c5a;
+  font-family: Tangerine, Georgia, serif;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+#title {
+  text-shadow: 3px 3px 10px #1f8c5a;
+  font-family: Barriecito, Georgia, serif;
+}
+
+#longMsg {
+  font-family: 'Fredoka One', Georgia, serif;
+}
+
+/*
+  #shortMsg {
+    user-select: none;
+    text-align: center;
+    font-family: Tangerine, Georgia, serif;
+    text-shadow: 3px 3px 10px #1f8c5a;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  #longMsg {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 50px;
+    font-family: Barriecito, Georgia, serif;
+    margin-bottom: 40px;
+    text-shadow: 3px 3px 10px #1f8c5a;
+  }
+
+  #photos {
+    text-align: center;
+  }
+
+  #addr,
+  #time {
+    position: fixed;
+    bottom: 0;
+    font-family: Righteous;
+    padding: 20px;
+  }
+
+  #addr {
+    text-align: left;
+    left: 0;
+  }
+
+  #time {
+    text-align: right;
+    right: 0;
+  }
+
+  #addrHeading {
+    font-size: 4em;
+    text-align: left;
+  }
+
+  #timeHeading {
+    font-size: 4em;
+    text-align: right;
+  }
+*/
+/*glow from https://codepen.io/FelixRilling/pen/qzfoc*/
+@keyframes glow {
+  from {
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 6px #fff, 0 0 8px #FFDD1B, 0 0 14px #FFDD1B, 0 0 16px #FFDD1B, 0 0 20px #FFDD1B, 0 0 30px #FFDD1B;
+  }
+
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 3px #fff, 0 0 4px #FFDD1B, 0 0 7px #FFDD1B, 0 0 8px #FFDD1B, 0 0 10px #FFDD1B, 0 0 15px #FFDD1B;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 6px #fff, 0 0 8px #FFDD1B, 0 0 14px #FFDD1B, 0 0 16px #FFDD1B, 0 0 20px #FFDD1B, 0 0 30px #FFDD1B;
+  }
+
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 3px #fff, 0 0 4px #FFDD1B, 0 0 7px #FFDD1B, 0 0 8px #FFDD1B, 0 0 10px #FFDD1B, 0 0 15px #FFDD1B;
+  }
+}
