@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>nIvite</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://nivite.github.io/sdk/style.css">
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body class="bg-dark text-light">
+  <!-- required, used for nivite nav-bar, alerts, calendar modal & rsvp modal -->
+  <div id="nivite">
+  </div>
+  <!-- optional, if present invite details will be populated into this automatically -->
+  <!-- <div id="invite"></div> -->
+  <div class="container text-center">
+    <div id="shortMsg" class="display-2"></div>
+    <div id="title" class="display-4"></div>
+    <div id="vitals" class="row fixed-bottom justify-content-center bg-dark text-light p-sm-4 p-3">
+      <div id="addr" class="col-12 col-sm-6 text-left">
+        <div id="addrHeading" class="font-weight-bolder text-warning">Venue</div>
+        <div id="addrName"></div>
+        <div id="addrText"></div>
+      </div>
+      <div id="time" class="col-12 col-sm-6 text-left text-sm-right">
+        <div id="timeHeading" class="font-weight-bolder text-warning">Time</div>
+        <div id="timeFrom"></div>
+        <div id="timeTo"></div>
+      </div>
+    </div>
+    <div id="photos" class="m-4"></div>
+    <div id="longMsg"></div>
+  </div>
+  <script src="index.js"></script>
+  <script src="https://nivite.github.io/sdk/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/356ba2cc78.js"
+    integrity="sha384-IwFbZvLB3nqmwJikzn6JZAqNDTwjFfauT4djixzjaxmR030Fd2gx05kWWwBLwRYZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
